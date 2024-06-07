@@ -3,6 +3,17 @@ include "dbconfig.php";
 ?>
 <!DOCTYPE html>
 <html>
+<style>
+        .info {
+            margin-left: 200px;
+            padding: 8px 15px 8px 15px;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            background-color:black;
+        }
+    </style>
+
 <head>
     <title>Student Database</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -45,5 +56,8 @@ include "dbconfig.php";
     </tbody>
 </table>
     </div>
+
+    <a href="index.php"><Button class="info">Back</Button></a>
+
 </body>
 </html>

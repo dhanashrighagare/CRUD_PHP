@@ -19,6 +19,7 @@
             <a href="create-student.php" class="btn btn-primary">Create New Student</a>
             <a href="view-student.php" class="btn btn-info">View Students</a>
         </div>
+        <div><img src="assets/student.png" alt=""></div>
     </div>
 </body>
 </html>
